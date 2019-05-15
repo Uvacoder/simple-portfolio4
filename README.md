@@ -53,43 +53,20 @@ Goal: Highlight my experience in business, depth and quality of my work and how 
 Goal: Friendly and approachable. Encourage audience to reach out to me.
 
 # **Timeline/Tasks**
-## Project Prework - 13.5hrs
-Things I need to complete in order to be able to build the the portfolio effectively
-* Research process of building a site - 1hr
-* Kanban method and implementation - 1.5hrs
-* Design inspiration and trends - 2hrs
-* Researching whether to use frameworks/libraries or not - 1hr
-* Inspecting how other developers built their sites (libraries,flexbox,css,grid,etc) - 1.5hrs
-* Wireframming & mockup understanding - 30mins
-* Copywritting/Remixing - 20mins
-* Mentor Feedback - 30mins
-* Color scheme and palette understanding and trends - 45mins 
-* Typeface fundamentals - 15mins
-* Flexbox practice - 1hr
-* Grid Practice - 1hr
-* Learn design and mockup tool (Figma) - 1.5hrs
-* Git repository - 15mins
 
 ## Design - 16hrs
 * Brainstorming portfolio ideas - 2hrs
 * Color palette & scheme - 30mins
 * Typeface - 20mins
 * Wireframes - 1.5hrs
-* **Mockup- Total 12hrs**
-    * Hero - 2hrs
-    * Nav - 2hrs
-    * Skills - 2hrs
-    * Projects - 2hrs
-    * About - 2hrs
-    * Contact - 2hrs
+
 
 ## Development - 25hrs
-* Hero - 5hrs
-* Nav - 5hrs
-* Skills - 4hrs
-* Projects - 3hrs
-* About - 4hrs
-* Contact - 4hrs
+* Skeleton layout - 3hrs
+* Basic styling - 2hrs 
+* Hero parallax - 3hrs
+* Sticky navbar - 3hrs
+* Responsive - 8hrs
 
 
 
@@ -103,6 +80,8 @@ Things I need to complete in order to be able to build the the portfolio effecti
 # **User Flow**
 
 # **Future Enhancements**
+
+
 
 
 
