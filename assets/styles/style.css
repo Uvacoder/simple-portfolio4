@@ -1,17 +1,24 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+h2, h3, p {
+    padding: 20px 0px;
 }
 
 .section {
-    padding: 30px 50px;
+    padding: 30px 200px;
 }
 
-.section-title {
+.section-heading {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 3rem;
+    padding: 0px 0px 60px 0px;
 }
 
 .hero-container {
@@ -19,77 +26,184 @@
     justify-content: center;
     align-items: center;
     height: 900px;
-    background-color: #162A3E;
+    background-color: #48328C;
 }
+
+
+                    /* SKILLS SECTION */
 
 .skills-container {
-    background-color: #FFFFFF;
+    background-color: #F3F3F3;
+    padding: 30px 100px;
 }
 
-#skills-title {
-    font-size: 3rem;
-    padding: 0px 0px 60px 0px;
+.skills-title {    
 }
 
 .skills-flex-wrapper-outer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: flex-start;
+}
+
+.skills-column-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
+    flex-basis: 20%;
+    text-align: center;
 }
 
 .skills-frontend-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
 }
 
 .icon-frontend {
     height: 75px;
     width: 75px;
-    background-color: #62D8EF;
+    background-color: #EE6633;
+    text-align: center;
 }
 
-.frontend-heading {
-    
-}
+.frontend-heading {}
 
 .frontend-description {
     height: 150px;
-    flex-basis: 250px;
-    background-color: #EED690;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 .skills-backend-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
 }
 
 .icon-backend {
     height: 75px;
     width: 75px;
-    background-color: #62D8EF;
+    background-color: #EE6633;
+}
+
+.backend-heading {
+}
+
+.backend-description {
+    height: 150px;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 .skills-design-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
 }
 
 .icon-design {
     height: 75px;
     width: 75px;
-    background-color: #62D8EF;
+    background-color: #EE6633;
 }
 
-.skills-div {
-    height: 50px;
-    width: auto;
-    background-color: #62D8EF;
-    border: 1px solid #EED690;
+.design-heading {}
+
+.design-description {
+    height: 150px;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
+
+.skills-ul {
+    list-style: none;
+}
+
+                        /* FOLIO SECTION */
+
+.folio-container {
+    /* max-width: 1200px; */
+    background-color: #ECECEC;
+}
+
+.projects-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    justify-items: center;
+    grid-column-gap: 2rem;
+    grid-row-gap: 50px;
+}
+
+.project-wrapper {
+    background-image: url("https://via.placeholder.com/450/EE6633/");
+    width: 400px;
+    height: 250px;
+}
+
+                        /* ABOUT SECTION */
+
+.about-container {
+    background-color: #F3F3F3;
+}
+
+.about-grid-wrapper-outer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    grid-column-gap: 3rem;
+    
+
+}
+.about-image-wrapper {
+    grid-area: 1 / 2 / 2 / 3;
+    justify-self: end;
+    align-self: center;
+    width: auto;
+    height: 100%;
+}
+
+.about-image {
+    background-image: url("https://via.placeholder.com/550/EE6633/");
+    width: 550px;
+    height: 400px;
+}
+
+.about-text {
+    padding: 0px;
+    align-self: center;
+    justify-self: center;
+}
+
+
+                        /* CONTACT */
+
+.contact-container {
+    background-color: #ECECEC;
+}
+
+                        /* FOOTER */
+
+.footer-container {
+    background-color: #48328C;
+}
+
+.footer-container > div {
+    padding: 0px;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+                        /* MEDIA QUERIES */
+
+@media (max-width: 768px) {
+    .skills-flex-wrapper-outer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills-column-container {
+        padding: 30px 0px;
+    }
+}
+
+
