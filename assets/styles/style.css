@@ -21,14 +21,79 @@ h2, h3, p {
     padding: 0px 0px 60px 0px;
 }
 
+                    /* HERO SECTION */
+
 .hero-container {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1.75fr 1.75fr 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    justify-items: center;
     align-items: center;
-    height: 900px;
+    height: 950px;
+    width: 100%;
     background-color: #48328C;
+    padding: 0px 20px;
 }
 
+.hero-heading {
+    grid-area: 3 / 2 / 4 / 4;
+    color: #FFFFFF;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    font-size: 4rem;
+}
+
+.scroll-down-btn {
+    grid-area: 4 / 2 / 4 / 4;
+    justify-self: center;
+    align-self: center;
+    background-repeat: no-repeat;
+    font-size: 4rem;
+    color: #EE6633;
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+    background-color: #EE6633;
+    border-radius: 3px;
+}
+
+#hero-logo {
+    justify-self: center;
+    align-self: center;
+}
+
+.cta-btn {
+    font-size: 1.5rem;
+    padding: 15px 40px;
+    background-color: #EE6633;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 3px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.hero-contact-btn {
+    grid-area: 1 / 4 / 2 / 5;
+}
+
+#hero-icons {
+    grid-area: 6 / 1 / span 1 / span 1;
+    width: 100%;
+}
+
+.hero-nav-flex-wrapper {
+    grid-area: 6 / 3 / span 1 / span 2;
+    justify-self: stretch;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
 
                     /* SKILLS SECTION */
 
@@ -52,8 +117,17 @@ h2, h3, p {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    flex-basis: 20%;
+    flex-basis: 27%;
     text-align: center;
+    background-color: #FFFFFF;
+    padding: 40px 60px;
+}
+
+.skills-description {
+    height: 150px;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 .skills-frontend-container {
@@ -68,12 +142,6 @@ h2, h3, p {
 
 .frontend-heading {}
 
-.frontend-description {
-    height: 150px;
-    flex-basis: 0;
-    flex-grow: 1;
-    flex-shrink: 1;
-}
 
 .skills-backend-container {
 }
@@ -87,13 +155,6 @@ h2, h3, p {
 .backend-heading {
 }
 
-.backend-description {
-    height: 150px;
-    flex-basis: 0;
-    flex-grow: 1;
-    flex-shrink: 1;
-}
-
 .skills-design-container {
 }
 
@@ -104,13 +165,6 @@ h2, h3, p {
 }
 
 .design-heading {}
-
-.design-description {
-    height: 150px;
-    flex-basis: 0;
-    flex-grow: 1;
-    flex-shrink: 1;
-}
 
 .skills-ul {
     list-style: none;
@@ -175,7 +229,7 @@ h2, h3, p {
 }
 
 
-                        /* CONTACT */
+                        /* CONTACT SECTION */
 
 .contact-container {
     background-color: #ECECEC;
@@ -232,18 +286,7 @@ h2, h3, p {
     flex-basis: 4.5rem;
 }
 
-.contact-form-submit-btn {
-    font-size: 1.5rem;
-    padding: 15px 40px;
-    background-color: #EE6633;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 3px;
-    margin: 20px;
-    cursor: pointer;
-}
-
-                        /* FOOTER */
+                        /* FOOTER SECTION */
 
 .footer-container {
     background-color: #48328C;
