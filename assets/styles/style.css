@@ -10,7 +10,7 @@ h2, h3, p {
 }
 
 .section {
-    padding: 30px 200px;
+    padding: 30px 20% 50px;
 }
 
 .section-heading {
@@ -18,7 +18,7 @@ h2, h3, p {
     justify-content: center;
     align-items: center;
     font-size: 3rem;
-    padding: 0px 0px 60px 0px;
+    padding: 0px 0px 30px 0px;
 }
 
                     /* HERO SECTION */
@@ -29,10 +29,11 @@ h2, h3, p {
     grid-template-rows: repeat(6, 1fr);
     justify-items: center;
     align-items: center;
-    height: 950px;
+    height: 100vh;
+    min-height: 500px;
     width: 100%;
     background-color: #48328C;
-    padding: 0px 20px;
+    padding: 0px 0px;
 }
 
 .hero-heading {
@@ -56,7 +57,7 @@ h2, h3, p {
 .logo {
     height: 80px;
     width: 80px;
-    background-color: #EE6633;
+    background-color: #8996CF;
     border-radius: 3px;
 }
 
@@ -85,6 +86,10 @@ h2, h3, p {
     width: 100%;
 }
 
+
+                    /* NAVBAR */
+
+
 .hero-nav-flex-wrapper {
     grid-area: 6 / 3 / span 1 / span 2;
     justify-self: stretch;
@@ -95,11 +100,36 @@ h2, h3, p {
     color: #FFFFFF;
 }
 
+.hero-nav-flex-wrapper > h3 {
+    padding: 0px;
+}
+
+.hero-nav-flex-wrapper > .logo {
+    display: none;
+}
+
+.sticky > .logo {
+    display: block;
+    height: 50px;
+    width: 50px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #48328C;
+    display: grid;
+    grid-template-columns: auto 65% 1fr 1fr 1fr 1fr 1fr;
+    height: 60px;
+  }  
+
+
                     /* SKILLS SECTION */
 
 .skills-container {
     background-color: #F3F3F3;
-    padding: 30px 100px;
+    padding: 30px 200px;
 }
 
 .skills-title {    
@@ -109,13 +139,13 @@ h2, h3, p {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: stretch;
 }
 
 .skills-column-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
     flex-basis: 27%;
     text-align: center;
@@ -126,7 +156,7 @@ h2, h3, p {
 .skills-description {
     height: 150px;
     flex-basis: 0;
-    flex-grow: 1;
+    flex-grow: 0;
     flex-shrink: 1;
 }
 
@@ -175,11 +205,12 @@ h2, h3, p {
 .folio-container {
     /* max-width: 1200px; */
     background-color: #ECECEC;
+    padding: 30px 15% 50px;
 }
 
 .projects-wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     justify-items: center;
     grid-column-gap: 2rem;
     grid-row-gap: 50px;
@@ -187,7 +218,7 @@ h2, h3, p {
 
 .project-wrapper {
     background-image: url("https://via.placeholder.com/450/EE6633/");
-    width: 400px;
+    width: 350px;
     height: 250px;
 }
 
@@ -290,6 +321,7 @@ h2, h3, p {
 
 .footer-container {
     background-color: #48328C;
+    padding: 30px 0px;
 }
 
 .footer-container > div {
@@ -298,7 +330,12 @@ h2, h3, p {
     color: #FFFFFF;
 }
 
-                        /* MEDIA QUERIES */
+
+                        /* HERO MEDIA QUERIES */
+
+                        /* NAVBAR MEDIA QUERIES */                        
+
+                        /* SKILLS MEDIA QUERIES */
 
 @media (max-width: 768px) {
     .skills-flex-wrapper-outer {
@@ -311,4 +348,55 @@ h2, h3, p {
     }
 }
 
+                        /* FOLIO MEDIA QUERIES */
 
+@media (max-width: 1050px) {
+    .projects-wrapper{
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    .project-wrapper {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 910px) {
+    .projects-wrapper{
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .project-wrapper {
+        width: 250px;
+        height: 150px;
+    }
+}
+
+                        /* ABOUT MEDIA QUERIES */
+@media (max-width: 1350px) {
+    .about-image {
+        width: 450px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .about-grid-wrapper-outer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-image-wrapper {
+        padding-top: 50px;
+        width: 100%;
+    }
+
+    .about-image {
+        width: 100%;
+    }
+}
+
+
+                        /* CONTACT MEDIA QUERIES */
+                        
