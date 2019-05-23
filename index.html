@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./assets/styles/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>CJ Staudinger | Full Stack Developer</title>
 </head>
 
 <body>
-    <div class="section hero-container">
+    <section class="section hero-container" id="home">
         <h1 class="hero-heading">
             Hello, I’m CJ.
             <br>I’m A Full Stack Developer.
@@ -20,63 +22,87 @@
         </div>
         <div class="logo" id="hero-logo">
         </div>
-        <button class="cta-btn hero-contact-btn">
-            Get In Touch
-        </button>
+        <a href="#contact" class="hero-contact-btn">
+            <button class="cta-btn cta-btn-contact">
+                Get In Touch
+            </button>
+        </a>
         <div class="icon-flex-wrapper" id="hero-icons">
-            <i class="social-media-icon fab fa-facebook">
-            </i>
-            <i class="social-media-icon fab fa-instagram">
-            </i>
-            <i class="social-media-icon fab fa-linkedin">
-            </i>
-            <i class="social-media-icon fab fa-github">
-            </i>
-            <i class="social-media-icon fab fa-twitter-square">
-            </i>
+            <a href="https://www.facebook.com/CJStaudinger" target="_blank">
+                <i class="social-media-icon fab fa-facebook">
+                </i>
+            </a>
+            <a href="https://www.instagram.com/chris_staudinger/" target="_blank">
+                <i class="social-media-icon fab fa-instagram">
+                </i>
+            </a>
+            <a href="https://www.linkedin.com/in/chrisstaudinger/" target="_blank">
+                <i class="social-media-icon fab fa-linkedin">
+                </i>
+            </a>
+            <a href="https://github.com/chrisstaudinger" target="_blank">
+                <i class="social-media-icon fab fa-github">
+                </i>
+            </a>
+            <a href="https://twitter.com/cj_staudinger/" target="_blank">
+                <i class="social-media-icon fab fa-twitter-square">
+                </i>
+            </a>
         </div>
         <div class="hero-nav-flex-wrapper header" id="myHeader">
             <div class="logo">
             </div>
-            <h3>
-                Home
-            </h3>
-            <h3>
-                Skills
-            </h3>
-            <h3>
-                Folio
-            </h3>
-            <h3>
-                About
-            </h3>
-            <h3>
-                Contact
-            </h3>
+            <div class="nav-empty-div">
+            </div>
+            <a href="#home">
+                <h3>
+                   Home
+                </h3>
+            </a>
+            <a href="#skills">
+                <h3>
+                    Skills
+                </h3>
+            </a>
+            <a href="#folio">
+                <h3>
+                    Folio
+                </h3>
+            </a>
+            <a href="#about">
+                <h3>
+                    About
+                </h3>
+            </a>
+            <a href="#contact">
+                <h3>
+                    Contact
+                </h3>
+            </a>
         </div>
-    </div>
-    <div class="section skills-container">
+    </section>
+    <section class="section skills-container" id="skills">
         <div class="section-heading">
-            <h2 class="section-title skills-title">Skills</h2>
+            <h2 class="section-title skills-title">SKILLS</h2>
         </div>
         <div class="skills-flex-wrapper-outer">
             <div class="skills-column-container skills-frontend-container">
-                <div class="icon-frontend">
-                </div>
+                <i class="fas fa-laptop-code skills-icon">
+                </i>
                 <h2 class="skills-heading frontend-heading">
-                    Front End
+                    FRONT END
                 </h2>
                 <p class="skills-description frontend-description">
                     I enjoy coding the browser to life. The immediate feedback of is a thrill.
                 </p>
                 <h3>
-                    Languages I Speak
+                    LANGUAGES I SPEAK
                 </h3>
                 <p>
                     HTML, CSS, Javascript, React, Node, Express, Bootstrap
                 </p>
                 <h3>
-                    Dev Tools
+                    DEV TOOLS
                 </h3>
                 <ul class="skills-ul">
                     <li class="skills-tools-li">Asana</li>
@@ -87,22 +113,22 @@
                 </ul>
             </div>
             <div class="skills-column-container skills-backend-container">
-                <div class="icon-backend">
-                </div>
+                <i class="fas fa-database skills-icon">
+                </i>
                 <h2 class="skills-heading backend-heading">
-                    Back End
+                    BACK END
                 </h2>
                 <p class="skills-description backend-description">
                     From small scale personal curiousities to larger team orientated projects, I love building it!
                 </p>
                 <h3>
-                    Languages I Speak
+                    LANGUAGES I SPEAK
                 </h3>
                 <p>
                     Ruby, Rails, SQL, PostgressSQL, MongoDB
                 </p>
                 <h3>
-                    Dev Tools
+                    DEV TOOLS
                 </h3>
                 <ul class="skills-ul">
                     <li>SourceTree</li>
@@ -114,21 +140,22 @@
                 </ul>
             </div>
             <div class="skills-column-container skills-design-container">
-                <div class="icon-design">
-                </div>
-                <h2 class="skills-heading design-heading">Design
+                <i class="fas fa-pencil-ruler skills-icon">   
+                </i>
+                <h2 class="skills-heading design-heading">
+                    DESIGN
                 </h2>
                 <p class="skills-description design-description">
                     I value clean designs, purposeful content structure, and thoughtful interactions.
                 </p>
                 <h3>
-                    Things I Enjoy Designing
+                    THINGS I ENJOY DESIGNING
                 </h3>
                 <p>
                     UX,UI, Web, Mobile, Apps, Logos
                 </p>
                 <h3>
-                    Design Tools
+                    DESIGN TOOLS
                 </h3>
                 <ul class="skills-ul">
                     <li>Figma</li>
@@ -138,11 +165,11 @@
                 </ul>
             </div>
         </div>
-    </div>    
-    <div class="section folio-container">
+    </section>    
+    <section class="section folio-container" id="folio">
         <div class="section-heading folio-heading">
             <h2 class="section-title folio-title">
-                Folio
+                FOLIO
             </h2>
         </div>
         <div class="projects-wrapper">
@@ -160,11 +187,11 @@
             </div>
         </div>
         </div>    
-    </div>
-    <div class="section about-container">
+    </section>
+    <section class="section about-container" id="about">
         <div class="section-heading about-heading">
             <h2 class="section-title about-title">
-                More About Me
+                MORE ABOUT ME
             </h2>
         </div>
         <div class="about-grid-wrapper-outer">
@@ -184,76 +211,71 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="section contact-container">
-        <div class="contact-container-inner">
+    </section>
+    <section class="section contact-container" id="contact">
+        <form action="https://formspree.io/chris.j.staudinger@gmail.com" method="POST" target="_blank" class="contact-container-inner">
             <div class="section-heading contact-heading">
                 <h2 class="section-title contact-title">
-                    Get In Touch
+                    GET IN TOUCH
                 </h2>
             </div>
             <div class="icon-flex-wrapper">
-                <i class="social-media-icon fab fa-facebook">
-                </i>
-                <i class="social-media-icon fab fa-instagram">
-                </i>
-                <i class="social-media-icon fab fa-linkedin">
-                </i>
-                <i class="social-media-icon fab fa-github">
-                </i>
-                <i class="social-media-icon fab fa-twitter-square">
-                </i>
+                <a href="https://www.facebook.com/CJStaudinger" target="_blank">
+                    <i class="social-media-icon fab fa-facebook">
+                    </i>
+                </a>
+                <a href="https://www.instagram.com/chris_staudinger/" target="_blank">
+                    <i class="social-media-icon fab fa-instagram">
+                    </i>
+                </a>
+                <a href="https://www.linkedin.com/in/chrisstaudinger/" target="_blank">
+                    <i class="social-media-icon fab fa-linkedin">
+                    </i>
+                </a>
+                <a href="https://github.com/chrisstaudinger" target="_blank">
+                    <i class="social-media-icon fab fa-github">
+                    </i>
+                </a>
+                <a href="https://twitter.com/cj_staudinger/" target="_blank">
+                    <i class="social-media-icon fab fa-twitter-square">
+                    </i>
+                </a>
             </div>
             <div class="contact-form-flex-wrapper">
                 <p>
                     First Name
                 </p>
-                <div class="contact-box user-firstname-box">
-                </div>
+                <input type="text" name="firstname" value="" class="contact-box user-firstname-box">
+                </input>
                 <p>
                     Last Name
                 </p>
-                <div class="contact-box user-lastname-box">
-                </div>
+                <input type="text" name="lastname" value="" class="contact-box user-lastname-box">
+                </input>
                 <p>
                     Email
                 </p>
-                <div class="contact-box user-email-box">
-                </div>
+                <input type="text" name="email" value="" class="contact-box user-email-box">
+                </input>
                 <p>
                     Message
                 </p>
-                <div class="contact-box user-message-box">
+                <div class="user-message-box-wrapper">
+                    <textarea type="text" name="message" value="" class="contact-box user-message-box"></textarea>
                 </div>
             </div>
-            <button class="contact-form-submit-btn cta-btn">
-                Submit
-            </button>
-        </div>                
-    </div>
-    <div class="section footer-container">
+            <input type="submit" value="Submit" class="contact-form-submit-btn cta-btn">
+            </input>
+        </form>                
+    </section>
+    <section class="section footer-container">
         <div class="section-heading footer-heading">
-            <p class="section-title footer-title">
-                Designed & Coded By Chris Staudinger
-            </p>
+            <h2 class="section-title footer-title">
+                    Designed & Coded by Chris Staudinger
+            </h2>
         </div>
-    </div>
+    </section>
 
     <script src="./assets/scripts/main.js"></script>
-
-    <!-- <script>
-        window.onscroll = function() {myFunction()};
-        
-        var header = document.getElementById("myHeader");
-        var sticky = header.offsetTop;
-        
-        function myFunction() {
-            if (window.pageYOffset > sticky) {
-            header.classList.add("sticky", "navbar");
-            } else {
-            header.classList.remove("sticky", "navbar");
-            }
-        }
-    </script> -->
 </body>
 </html>

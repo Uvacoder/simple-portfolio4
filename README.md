@@ -84,5 +84,33 @@ Goal: Friendly and approachable. Encourage audience to reach out to me.
 
 
 
+.hero-container {
+    display: grid;
+    grid-template-columns: 1fr 1.75fr 1.75fr 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+    min-height: 500px;
+    width: 100%;
+    background-color: #48328C;
+    padding: 0px 0px;
+}
 
+.hero-heading {
+    grid-area: 3 / 2 / 4 / 4;
+    color: #FFFFFF;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    font-size: 4rem;
+}
 
+.scroll-down-btn {
+    grid-area: 4 / 2 / 4 / 4;
+    justify-self: center;
+    align-self: center;
+    background-repeat: no-repeat;
+    font-size: 4rem;
+    color: #EE6633;
+}
