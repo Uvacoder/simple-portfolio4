@@ -61,27 +61,32 @@
             </a>
             <div class="nav-empty-div">
             </div>
-            <a href="#home">
+            <input type="checkbox" id="nav-toggle">
+            <label for="nav-toggle" class="burger-menu">
+                <i class="fas fa-bars">
+                </i>
+            </label>
+            <a href="#home" class="menu-selection" id="menu-selection-home">
                 <h3>
                    Home
                 </h3>
             </a>
-            <a href="#skills">
+            <a href="#skills" class="menu-selection">
                 <h3>
                     Skills
                 </h3>
             </a>
-            <a href="#folio">
+            <a href="#folio" class="menu-selection">
                 <h3>
                     Folio
                 </h3>
             </a>
-            <a href="#about">
+            <a href="#about" class="menu-selection">
                 <h3>
                     About
                 </h3>
             </a>
-            <a href="#contact">
+            <a href="#contact" class="menu-selection">
                 <h3>
                     Contact
                 </h3>
@@ -327,17 +332,14 @@
                     First Name
                 </p>
                 <input type="text" name="firstname" value="" class="contact-box user-firstname-box">
-                </input>
                 <p>
                     Last Name
                 </p>
                 <input type="text" name="lastname" value="" class="contact-box user-lastname-box">
-                </input>
                 <p>
                     Email
                 </p>
                 <input type="text" name="email" value="" class="contact-box user-email-box">
-                </input>
                 <p>
                     Message
                 </p>
@@ -346,7 +348,6 @@
                 </div>
             </div>
             <input type="submit" value="Submit" class="contact-form-submit-btn cta-btn">
-            </input>
         </form>                
     </section>
     <section class="section footer-container">

@@ -84,7 +84,6 @@ p {
     background-position: center;
     height: 60px;
     width: 60px;
-    /* background-color: #8996CF; */
     border-radius: 3px;
 }
 
@@ -159,6 +158,16 @@ p {
     display: none;
 }
 
+.hero-nav-flex-wrapper .burger-menu {
+    display: none;
+    align-self: stretch;
+    padding-top: 2px;
+}
+
+.hero-nav-flex-wrapper #nav-toggle {
+    display: none;
+}
+
 .nav-empty-div {
     display: none;
 }
@@ -180,6 +189,8 @@ p {
 
 .sticky > #nav-logo {
     display: block;
+    align-self: stretch;
+    padding-top: 2px;
 }
 
 .sticky .logo {
@@ -470,7 +481,31 @@ p {
 
                         /* HERO MEDIA QUERIES */
 
-                        /* NAVBAR MEDIA QUERIES */                        
+                        /* NAVBAR MEDIA QUERIES */   
+                        
+@media (max-width: 768px) {
+    .sticky .burger-menu {
+        display: block;
+        font-size: 2.5rem;
+        grid-area: 1 / 7 / span 1 /span 1;
+    }
+
+    .sticky .menu-selection {
+        display: none;
+    }
+
+    #nav-toggle:checked ~ .menu-selection {
+        display: grid;
+        grid-column: 1 / span 7;
+        background-color: #48328C;
+        width: 100vw;
+        padding: 10px;
+    }
+
+    /* #nav-toggle:checked ~ #menu-selection-home {
+        padding-top: 0px;
+    } */
+}
 
                         /* SKILLS MEDIA QUERIES */
 
