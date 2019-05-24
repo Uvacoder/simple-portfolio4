@@ -63,20 +63,16 @@ p {
     letter-spacing: 3px;
 }
 
-.scroll-down-btn {
+.scroll-down-btn-wrapper {
     grid-area: 12 / 9 / 13 / 11;
     justify-self: center;
     align-self: start;
+}
+
+.scroll-down-btn {
     background-repeat: no-repeat;
     font-size: 4rem;
     color: #EE6633;
-    transition: all 3s;
-  transform: scale3d(0.76, 0.76, 0.76);
-}
-
-.scroll-down-btn:hover {
-    cursor: pointer;
-    transform: scale3d(1, 1, 1);
 }
 
 .logo {
@@ -254,6 +250,52 @@ p {
     background-image: url("https://via.placeholder.com/450/EE6633/");
     width: 350px;
     height: 250px;
+    z-index: auto;
+}
+
+.GOT-game {
+    background-image: url("./../images/GOT-game1.png");
+    background-size: cover;
+    width: 350px;
+    height: 250px;
+    z-index: 1;
+}
+
+.GOT-game:hover .project-overlay {
+    background-color: rgba(0,0,0,0.75);
+    transition: 1s;
+}
+
+.GOT-game:hover p {
+    display: block;
+    transition: all 1s;
+    animation: fadeIn 1s;
+    text-align: center;
+}
+
+.project-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);  
+    cursor: pointer;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.project-overlay > h3 {
+    z-index: 3;
+    color: #EE6633;
+    font-size: 2rem;
+    text-align: center;
+    padding: 5px;
+}
+
+.project-overlay > p {
+    display: none;
+    padding: 5px;
 }
 
                         /* ABOUT SECTION */
