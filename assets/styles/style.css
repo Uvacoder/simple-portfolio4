@@ -249,25 +249,20 @@ p {
 
 .project-wrapper {
     background-image: url("https://via.placeholder.com/450/EE6633/");
-    width: 350px;
-    height: 250px;
-    z-index: auto;
-}
-
-.GOT-game {
-    background-image: url("./../images/GOT-game1.png");
     background-size: cover;
+    background-position: center;
     width: 350px;
     height: 250px;
     z-index: 1;
+    cursor: pointer;
 }
 
-.GOT-game:hover .project-overlay {
+.project-wrapper:hover .project-overlay {
     background-color: rgba(0,0,0,0.75);
     transition: 1s;
 }
 
-.GOT-game:hover p {
+.project-wrapper:hover p {
     display: block;
     transition: all 1s;
     animation: fadeIn 1s;
@@ -278,7 +273,6 @@ p {
     width: 100%;
     height: 100%;
     background-color: rgba(0,0,0,0.5);  
-    cursor: pointer;
     z-index: 2;
     display: flex;
     flex-direction: column;
@@ -297,6 +291,33 @@ p {
 .project-overlay > p {
     display: none;
     padding: 5px;
+}
+
+.GOT-game {
+    background-image: url("./../images/GOT-game1.png");
+}
+
+.portfolio-project {
+    background-image: url("./../images/portfolio.png");
+}
+
+.article-checker-app {
+    background-image: url("./../images/article-checker.png");
+}
+
+.climate-awareness-project {
+    background-image: url("./../images/climate-change3.jpg");
+    cursor: default;
+}
+
+.carbon-emissions-project {
+    background-image: url("./../images/climate-change5.jpg");
+    cursor: default;
+}
+
+.fire-calculator-project {
+    background-image: url("./../images/fire-calculator.jpg");
+    cursor: default;
 }
 
                         /* ABOUT SECTION */
