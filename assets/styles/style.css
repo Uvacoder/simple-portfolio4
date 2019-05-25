@@ -151,6 +151,7 @@ p {
 
 .hero-nav-flex-wrapper h3:hover {
     color: #EE6633;
+    opacity: 1;
     transition: 0.5s;
 }
 
@@ -179,10 +180,10 @@ p {
     width: 100%;
     background-color: #48328C;
     display: grid;
-    grid-template-columns: auto 65% 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 30px auto 65% 1fr 1fr 1fr 1fr 1fr 30px;
     height: 65px;
     align-items: center;
-    padding: 0px 30px;
+    /* padding: 0px 30px; */
     animation: fadeIn 0.5s;
     z-index: 10;
   }  
@@ -273,7 +274,7 @@ p {
     background-size: cover;
     background-position: center;
     width: 350px;
-    height: 250px;
+    height: 240px;
     z-index: 1;
     cursor: pointer;
 }
@@ -466,6 +467,7 @@ p {
 .footer-container {
     background-color: #48328C;
     padding: 30px 0px;
+    text-align: center;
 }
 
 .footer-heading {
@@ -481,13 +483,72 @@ p {
 
                         /* HERO MEDIA QUERIES */
 
+@media (max-width: 1050px) {
+    .hero-nav-flex-wrapper {
+        grid-area: 17 / 10 / span 1 / span 8;
+    }
+
+    #hero-icons {
+        grid-area: 17 / 2 / span 1 / span 6;
+    }
+}
+
+@media (max-width: 850px) {
+    .scroll-down-btn-wrapper {
+        grid-area: 14 / 9 / span 2 / span 2;
+     }
+}
+
+@media (max-width: 768px) {
+    .hero-nav-flex-wrapper .menu-selection {
+        display: none;
+    }
+
+    #hero-icons {
+        grid-area: 17 / 5 / span 1 / span 10;
+    }
+
+    #hero-logo {
+        grid-area: 2 / 2 / 3 / span 3;
+    }
+}
+
+@media (max-width: 805px) {
+    .hero-heading {
+        font-size: 3.5rem;
+        grid-area: 7 / 3 / span 4 / span 14;
+    }
+}
+
+@media (max-width: 500px) {
+    .hero-heading {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    /* ADD JAVASCRIPT TO ADD STICKY CLASS TOP PAGE & Display None Hero Logo and Contact Btn*/
+}
+
                         /* NAVBAR MEDIA QUERIES */   
-                        
+     
+@media (max-width: 1250px) {
+    .sticky {
+        grid-template-columns: 30px auto 50% 1fr 1fr 1fr 1fr 1fr 30px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .sticky {
+        grid-template-columns: 30px auto 40% 1fr 1fr 1fr 1fr 1fr 30px;
+    }
+}
+
 @media (max-width: 768px) {
     .sticky .burger-menu {
         display: block;
         font-size: 2.5rem;
-        grid-area: 1 / 7 / span 1 /span 1;
+        grid-area: 1 / 8 / span 1 /span 1;
     }
 
     .sticky .menu-selection {
@@ -498,13 +559,10 @@ p {
         display: grid;
         grid-column: 1 / span 7;
         background-color: #48328C;
+        opacity: 0.9;
         width: 100vw;
         padding: 10px;
     }
-
-    /* #nav-toggle:checked ~ #menu-selection-home {
-        padding-top: 0px;
-    } */
 }
 
                         /* SKILLS MEDIA QUERIES */
@@ -524,12 +582,31 @@ p {
 
 @media (max-width: 1050px) {
     .projects-wrapper{
+        grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    }
+
+    .project-wrapper {
+        width: 330px;
+        height: 230px;
+    }
+}
+
+@media (max-width: 992px) {
+    .projects-wrapper{
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
 
     .project-wrapper {
         width: 300px;
         height: 200px;
+    }
+
+    .project-overlay:hover {
+        cursor: default;
+    }
+
+    .project-overlay:hover p {
+        display: none;
     }
 }
 
@@ -540,7 +617,13 @@ p {
 
     .project-wrapper {
         width: 250px;
-        height: 150px;
+        height: 180px;
+    }
+}
+
+@media (max-width: 768px) {
+    .projects-wrapper{
+        grid-row-gap: 2rem;
     }
 }
 
@@ -566,6 +649,12 @@ p {
 
     .about-image {
         width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    #cj-surfing-img {
+        background-position: right;
     }
 }
 
