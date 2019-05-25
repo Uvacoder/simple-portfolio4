@@ -136,7 +136,7 @@ p {
                     /* NAVBAR */
 
 
-.hero-nav-flex-wrapper {
+.desktop-navbar {
     grid-area: 17 / 12 / span 1 / span 6;
     justify-self: stretch;
     display: flex;
@@ -146,27 +146,27 @@ p {
     color: #FFFFFF;
 }
 
-.hero-nav-flex-wrapper h3 {
+.navbar h3 {
     padding: 0px;
 }
 
-.hero-nav-flex-wrapper h3:hover {
+.navbar h3:hover {
     color: #EE6633;
     opacity: 1;
     transition: 0.5s;
 }
 
-.hero-nav-flex-wrapper > #nav-logo {
+.desktop-navbar > #nav-logo {
     display: none;
 }
 
-.hero-nav-flex-wrapper .burger-menu {
+#mobile-nav .burger-menu {
     display: none;
     align-self: stretch;
     padding-top: 2px;
 }
 
-.hero-nav-flex-wrapper #nav-toggle {
+#nav-toggle {
     display: none;
 }
 
@@ -175,7 +175,7 @@ p {
 }
 
 
-.sticky {
+.sticky, #mobile-nav {
     position: fixed;
     top: 0;
     width: 100%;
@@ -202,6 +202,20 @@ p {
 
 .sticky > .nav-empty-div {
     display: block;
+}
+
+#burger-menu {
+    display: block;
+    font-size: 2.5rem;
+    grid-area: 1 / 8 / span 1 /span 1;
+}
+
+#mobile-nav {
+    display: none;
+}
+
+#mobile-nav .menu-selection {
+    display: none;
 }
 
                     /* SKILLS SECTION */
@@ -495,7 +509,7 @@ p {
                         /* HERO MEDIA QUERIES */
 
 @media (max-width: 1050px) {
-    .hero-nav-flex-wrapper {
+    .desktop-navbar {
         grid-area: 17 / 10 / span 1 / span 8;
     }
 
@@ -556,13 +570,20 @@ p {
 }
 
 @media (max-width: 768px) {
-    .sticky .burger-menu {
-        display: block;
-        font-size: 2.5rem;
-        grid-area: 1 / 8 / span 1 /span 1;
+
+    .desktop-navbar {
+        display: none;
     }
 
-    .sticky .menu-selection {
+    #mobile-nav {
+        display: grid;
+    }
+
+    #hero-logo {
+        display: none;
+    }
+
+    .hero-contact-btn {
         display: none;
     }
 
@@ -573,6 +594,7 @@ p {
         opacity: 0.9;
         width: 100vw;
         padding: 10px;
+        text-align: center;
     }
 }
 
