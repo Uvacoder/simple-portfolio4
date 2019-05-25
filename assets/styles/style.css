@@ -208,9 +208,10 @@ p {
     display: block;
     font-size: 2.5rem;
     grid-area: 1 / 8 / span 1 /span 1;
+    color: #FFFFFF;
 }
 
-#mobile-nav #nav-logo{
+#mobile-nav #nav-logo {
     grid-area: 1 / 2 / span 1 / span 2;
 }
 
