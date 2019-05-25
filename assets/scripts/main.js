@@ -1,5 +1,5 @@
-// When the user scrolls the page, execute myFunction 
-window.onscroll = function() {myFunction()};
+// When the user scrolls the page, execute addNavbar 
+window.onscroll = function() {addNavbar()};
 
 // Get the header
 var header = document.getElementById("myHeader");
@@ -8,7 +8,7 @@ var header = document.getElementById("myHeader");
 var sticky = header.offsetTop;
 
 // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
+function addNavbar() {
   if (window.pageYOffset >= sticky) {
     header.classList.add("sticky");
   } else {
@@ -43,15 +43,10 @@ $(document).ready(function(){
 });
 
 
+function toggleHamburger() {
+  document.getElementById("nav-toggle").checked = false;
+}
 
-// function myFunction(x) {
-//   if (x.matches) { // If media query matches
-//     document.body.style.backgroundColor = "yellow";
-//   } else {
-//     document.body.style.backgroundColor = "pink";
-//   }
-// }
-
-// var x = window.matchMedia("(max-width: 768px)")
-// myFunction(x) // Call listener function at run time
-// x.addListener(myFunction) // Attach listener function on state changes
+function toggleHamburgerMobile() {
+  document.getElementById("nav-toggle").checked = false;
+}
