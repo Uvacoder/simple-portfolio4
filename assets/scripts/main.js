@@ -14,7 +14,7 @@ function addNavbar() {
   } else {
     header.classList.remove("sticky");
   }
-}
+} 
 
 
 $(document).ready(function(){

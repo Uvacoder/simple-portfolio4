@@ -83,8 +83,8 @@ p {
 .logo {
     background-image: url("./../images/logo.svg");
     background-position: center;
-    height: 60px;
-    width: 60px;
+    height: 65px;
+    width: 65px;
     border-radius: 3px;
 }
 
@@ -208,6 +208,10 @@ p {
     display: block;
     font-size: 2.5rem;
     grid-area: 1 / 8 / span 1 /span 1;
+}
+
+#nav-logo {
+    grid-area: 1 / 2 / span 1 / span 1;
 }
 
 #mobile-nav {
