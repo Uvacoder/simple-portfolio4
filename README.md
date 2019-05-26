@@ -36,7 +36,21 @@ A heavily weighted contemporary humanist sans-serif style font creating a design
 ``font-family: "Open Sans", sans-serif;`` <br>
 A lightweight geometric and humanist sans-serif style font. Clean and modern. Offsets the heading font so that the headings become eye-catching yet not overly-distracting. Allows the site to flow very smoothly, with the site being a clean design visitors focus on designated areas and are not distracted or strained whilst on the site.
 
-## Layout
+## **Layout**
+* Completely responsive for all device types. Grid and flex structure.
+* Consistent and intentional color usage to direct user attention.
+* Clean with minimal text to keep user attention directed.
+* Visual tools - skills table and icons.
+* Accent color for call to action buttons with appropriate sizing.
+* Accent color for other focal elements - social media buttons.
+* Obvious hover states - Color change from fill to outline.
+* Specific social media icon placement
+* Transitions and animations intentional to direct attention and provide user feedback
+![Responsive Example Desktop](https://github.com/chrisstaudinger/my-portfolio/blob/master/assets/images/responsive-example-desktop.png?raw=true)
+![Responsive Example Tablet/Mobile](https://github.com/chrisstaudinger/my-portfolio/blob/master/assets/images/responsive-example-tablet:mobile.png?raw=true)
+![Neutral State](https://github.com/chrisstaudinger/my-portfolio/blob/master/assets/images/cta-neutral.png?raw=true)
+![Hover Example](https://github.com/chrisstaudinger/my-portfolio/blob/master/assets/images/cta-hover.png?raw=true)
+
 ## Personal Logo
 A simple monogram logo
 ![Logo](https://github.com/chrisstaudinger/my-portfolio/blob/master/assets/images/logo.png?raw=true)
@@ -62,24 +76,34 @@ Goal: Highlight my previous experience in business, skillsets I have acquired, w
 ## Contact Me
 Goal: Friendly and approachable. Encourage audience to reach out to me.
 
+## **Wireframes**
+
+## **Mockup**
+![Mockup Part1](https://github.com/chrisstaudinger/my-portfolio/blob/master/assets/images/mockup-part1.png?raw=true)
+![Mockup Part2](https://github.com/chrisstaudinger/my-portfolio/blob/master/assets/images/mockup-part2.png?raw=true)
 # **Timeline/Tasks**
 
-## Design - 16hrs
-* Brainstorming portfolio ideas - 2hrs
-* Color palette & scheme - 30mins
-* Typeface - 20mins
-* Wireframes - 1.5hrs
+## Design - 11.5hrs
+* Brainstorming portfolio ideas - 3hrs
+* Color palette & scheme - 1hr
+* Typeface - 30mins
+* Wireframes - 1hr
+* Mockup - 6hrs
 
 
-## Development - 25hrs
-* Skeleton layout - 3hrs
-* Basic styling - 2hrs 
+## Development - 39hrs
+* Skeleton layout - 5hrs
+* Basic styling - 3hrs 
 * Hero parallax - 3hrs
 * Sticky navbar - 3hrs
-* Responsive - 8hrs
-
-
-
+* Mobile navbar - 3hrs
+* Social Icons - 1hr
+* Links - 2hrs
+* Folio Overlay - 2hrs
+* Contact Form - 3hrs
+* Animations/transitions - 3hrs
+* Responsive - 10hrs
+* Deployment - 1hr
 
 # **Technology Requirements / API**
 ### Tech Stack
@@ -87,12 +111,15 @@ Goal: Friendly and approachable. Encourage audience to reach out to me.
 Deployment Platform - Github Pages
 
 # **Planning Process**
+
+## **Project Management**
+
+#### Kanban Board - Trello
+![Kanban - Trello](https://github.com/chrisstaudinger/my-portfolio/blob/master/assets/images/Kanban-Trello.png?raw=true)
+
 ## **User Flow**
+#### Sitemap
 ![Sitemap](https://github.com/chrisstaudinger/my-portfolio/blob/master/assets/images/portfolio-site-map.png?raw=true) 
-
-# **Design Process**
-
-# **Future Enhancements**
 
 
 # **Coder Academy Assignment Questions**
