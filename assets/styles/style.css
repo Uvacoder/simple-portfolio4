@@ -40,6 +40,10 @@ p {
 
                     /* HERO SECTION */
 
+#home {
+    height: calc(100vh - 90px);
+}
+
 .hero-container {
     display: grid;
     grid-template-columns: repeat(18, 1fr);
@@ -142,7 +146,6 @@ p {
     color: #FFFFFF;
     background-color: #48328C;
     height: 90px;
-    margin-top: calc(100vh - 90px);
 }
 
 .desktop-navbar h3 {
