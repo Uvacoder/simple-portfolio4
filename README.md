@@ -21,35 +21,44 @@ Employers, start-ups, SME's, developers, entrepreneurs.
 
 ## Fun Modern Websites
 Flat color palette. Generally monochromatic, triad, compound or complimentary. 
+![Design Inspiration](https://github.com/chrisstaudinger/my-portfolio/blob/master/assets/images/design-inspiration1.png?raw=true)
 
 ## My Color Scheme 
 Flat purple base with a bright, flat, accent color. 
+![My Color Palette](https://github.com/chrisstaudinger/my-portfolio/blob/master/assets/images/colour-palette.png?raw=true)
 
 
 ## Font Family
 ### Section & Page Headers
-``font-family: "eurostile",sans-serif;`` <br>
-A heavily weighted geometric sans-serif style font creating a design that is modern, clean and fun, yet professional. 
+``font-family: "Arial", Helvetica, sans-serif;`` <br>
+A heavily weighted contemporary humanist sans-serif style font creating a design that is modern, clean and fun, yet professional. 
 ### Other Page Content
-``font-family: "europa",sans-serif;`` <br>
+``font-family: "Open Sans", sans-serif;`` <br>
 A lightweight geometric and humanist sans-serif style font. Clean and modern. Offsets the heading font so that the headings become eye-catching yet not overly-distracting. Allows the site to flow very smoothly, with the site being a clean design visitors focus on designated areas and are not distracted or strained whilst on the site.
 
 ## Layout
 ## Personal Logo
+A simple monogram logo
+![Logo](https://github.com/chrisstaudinger/my-portfolio/blob/master/assets/images/logo.png?raw=true)
 ## Usability & User Experience
 ### Simplicity
+Clean design, clear and appealing typography, consistent color scheme.
 ### Visual Hierachy
+Call-to-action buttons are orange, other points of interest are coloured. Transitions and animations to direct attention.
 ### Navigation
+Sticky navbar, logo sends you back to the homepage, minimal options in the navbar. Responsive desktop, tablet and mobile versions.
 ### Accesseibility
+Responsive design, use of font and colors intentional to adhere to best design heuristic principles.
 ### Conventionality
+Logo in the top-left corner, hoverlinks applied, clickable logo. Navbar top, burger-menu on mobile.
 ## Sections
-Sections are ordered to what is more valuable to the target audience. Each section is aimed to entice the audience into finding out more and, therefore, scrolling further into the other sections.
+Sections are prioritise to what is more valuable/intriguing to the target audience. Sections are designed to flow and keep the audience engaged, therefore, scrolling further into other sections.
 ## Skills
-Goal: Highlight my current skills and outline that my skills are expanding. Use visual aid so that the user can encapsulate what I can do quickly rather than reading large amounts of text.
+Goal: Highlight my skills spectrum and level. Outline that my skills are expanding. Out the tools I am currently work with. Use of visual aid to assist the user in discerning my front end, back end, and design skillsets.
 ## Work
-Goal: Show my previous experience, explore what I have been able to do. Illustrate my drive, work ethic and that my skills are expanding.
+Goal: Show my previous experience. Explore the projects I am working on.
 ## About Me
-Goal: Highlight my experience in business, depth and quality of my work and how fast I progress at what I do. Touch on my passions to reveal a bit of my personality.
+Goal: Highlight my previous experience in business, skillsets I have acquired, work ethic and quality of my work. Reveal a bit of my personality.
 ## Contact Me
 Goal: Friendly and approachable. Encourage audience to reach out to me.
 
@@ -73,13 +82,15 @@ Goal: Friendly and approachable. Encourage audience to reach out to me.
 
 
 # **Technology Requirements / API**
+### Tech Stack
+**HTML, CSS, JAVASCRIPT, JQUERY** <br>
+Deployment Platform - Github Pages
 
 # **Planning Process**
-![Sitemap] 
+## **User Flow**
+![Sitemap](https://github.com/chrisstaudinger/my-portfolio/blob/master/assets/images/portfolio-site-map.png?raw=true) 
 
 # **Design Process**
-
-# **User Flow**
 
 # **Future Enhancements**
 
