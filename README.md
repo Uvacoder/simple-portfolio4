@@ -77,6 +77,9 @@ Goal: Highlight my previous experience in business, skillsets I have acquired, w
 Goal: Friendly and approachable. Encourage audience to reach out to me.
 
 ## **Wireframes**
+![Wireframe part1](https://github.com/chrisstaudinger/my-portfolio/blob/master/assets/images/wireframe-part1.jpeg?raw=true)
+![Wireframe part2](https://github.com/chrisstaudinger/my-portfolio/blob/master/assets/images/wirefram-part2.jpeg?raw=true)
+
 
 ## **Mockup**
 ![Mockup Part1](https://github.com/chrisstaudinger/my-portfolio/blob/master/assets/images/mockup-part1.png?raw=true)
