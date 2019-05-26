@@ -1,3 +1,6 @@
+Website - https://chrisstaudinger.github.io/my-portfolio/ 
+<br> Github - https://github.com/chrisstaudinger/my-portfolio
+
 # **Objective**
 Demonstrate my knowledge of front end development and design by creating a visually appealing, clean and attention grabbing online portfolio, using fundamental design/development concepts and best practices. The portfolio will highlight my skills, goals, experience and personality to prospective employers, new clients and/or collaboration opportunities.
 
@@ -17,13 +20,11 @@ Employers, start-ups, SME's, developers, entrepreneurs.
 # **Design**
 
 ## Fun Modern Websites
-Flat color schemes or complimentary color schemes.
+Flat color palette. Generally monochromatic, triad, compound or complimentary. 
 
 ## My Color Scheme 
-Monochromatic. Dark and natural theme.
+Flat purple base with a bright, flat, accent color. 
 
-## My Color Pallete
-Grey base and 1 bright, flat, accent color.
 
 ## Font Family
 ### Section & Page Headers
@@ -74,6 +75,7 @@ Goal: Friendly and approachable. Encourage audience to reach out to me.
 # **Technology Requirements / API**
 
 # **Planning Process**
+![Sitemap] 
 
 # **Design Process**
 
@@ -82,35 +84,15 @@ Goal: Friendly and approachable. Encourage audience to reach out to me.
 # **Future Enhancements**
 
 
+# **Coder Academy Assignment Questions**
 
-
-.hero-container {
-    display: grid;
-    grid-template-columns: 1fr 1.75fr 1.75fr 1fr;
-    grid-template-rows: repeat(6, 1fr);
-    justify-items: center;
-    align-items: center;
-    height: 100vh;
-    min-height: 500px;
-    width: 100%;
-    background-color: #48328C;
-    padding: 0px 0px;
-}
-
-.hero-heading {
-    grid-area: 3 / 2 / 4 / 4;
-    color: #FFFFFF;
-    text-align: center;
-    justify-self: center;
-    align-self: center;
-    font-size: 4rem;
-}
-
-.scroll-down-btn {
-    grid-area: 4 / 2 / 4 / 4;
-    justify-self: center;
-    align-self: center;
-    background-repeat: no-repeat;
-    font-size: 4rem;
-    color: #EE6633;
-}
+#### Describe key events in the development of the internet from the 1980s to today (max 150words).
+By the 1980s the foundations of the internet had already begun from the APRANET project. NSF (National Science Foundation) funded several national super computing centers at several universities and provided interconnectivity by 1986 with the NSFNET project. TCP/IP went global in the 1980’s and continued to evolve over decades. By late 1980s commercial ISPs began to emerge. In 1989 an information management system was created by Tim Berners-Lee at CERN, implementing the first successful communication between a HTTP client and server via the internet, resulting in the World Wide Web.  APRANET was decomissioned in 1990,  and NSF in 1995, removing the last restrictions on the use of the Internet to carry commercial traffic. In the 1990’s the first web servers and web browsers were created, often credited with sparking the ‘boom’ in the 1990s. Routing technologies also evolved throughout this period.
+#### Define and describes the relationship between fundamental aspects of the internet such as; domains, web servers, DNS, and web browsers (max 150 words).
+DNS (Domain Name System) - converts domain names found in URLs from a web browser - into IP addresses. <br>
+Domain names are human-readable names for IP addresses. The DNS takes this human-readable name from the browser and converts it into it’s IP address. <br>
+A web browser is a software program that allows a user to locate, access, and display web pages. Using HTTP browsers request IP Addresses from the web-servers. <br>
+A web server provides access to the to IP addresses requested by the client. <br>
+These technologies work together interlinked as explained above to allow us to utilise the internet as we do. 
+#### Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max 150 words).
+Without the World Wide Web, the internet would not be what it is today. This information management sharing system utilising HTTP allowed for different technologies and softwares to come together over the internet and provide it the utility we have become so accustomed to. If the WWW or a similar technology did not exist, so many of the advance we have had in the last 30 years would not have come to fruition.
